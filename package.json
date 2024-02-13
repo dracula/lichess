@@ -1,0 +1,11 @@
+{
+  "name": "lichess",
+  "version": "1.0.0",
+  "description": "> A dark theme for [Lichess](https://lichess.org).",
+  "main": "readme.md",
+  "author": "Jonathan Scholbach",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
+}

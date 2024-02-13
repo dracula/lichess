@@ -148,21 +148,21 @@
     color: var(--color-dim) !important;
   }
 
-  div[role='group'],
+  div[role="group"],
   #topnav section a:hover,
-  #topnav section:has(div[role='group']:hover) a {
+  #topnav section:has(div[role="group"]:hover) a {
     border-left-color: var(--color-primary) !important;
   }
 
-  #topnav section:has(div[role='group']:hover) > a,
-  #topnav section:has(div[role='group']:hover),
+  #topnav section:has(div[role="group"]:hover) > a,
+  #topnav section:has(div[role="group"]:hover),
   #topnav section a:hover,
   #topnav section a:hover span {
     background: var(--color-dim) !important;
     color: var(--color-primary) !important;
   }
 
-  div[role='group'] a:hover {
+  div[role="group"] a:hover {
     background: var(--color-primary) !important;
     color: var(--color-dark) !important;
   }
@@ -409,17 +409,17 @@
     background: var(--color-dim) !important;
   }
 
-  *[stroke='#003088'] {
+  *[stroke="#003088"] {
     stroke: var(--dracula-pink);
     opacity: 0.7;
   }
 
-  *[fill='#3291ff'],
+  *[fill="#3291ff"],
   #arrowhead-pb path {
     fill: var(--dracula-pink) !important;
   }
 
-  *[stroke='#15781B'] {
+  *[stroke="#15781B"] {
     stroke: var(--dracula-green) !important;
     opacity: 0.7;
   }
@@ -428,7 +428,7 @@
   *         BOARD         *
   /***********************/
   cg-board {
-    background-image: url('https://raw.githubusercontent.com/jonathan-scholbach/dracula-lichess/master/images/board.svg') !important;
+    background-image: url("https://raw.githubusercontent.com/jonathan-scholbach/dracula-lichess/master/images/board.svg") !important;
   }
 
   square.check {
