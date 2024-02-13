@@ -428,7 +428,7 @@
   *         BOARD         *
   /***********************/
   cg-board {
-    background-image: url("https://raw.githubusercontent.com/jonathan-scholbach/dracula-lichess/master/images/board.svg") !important;
+    background-image: url("https://raw.githubusercontent.com/dracula/lichess/master/images/board.svg") !important;
   }
 
   square.check {
